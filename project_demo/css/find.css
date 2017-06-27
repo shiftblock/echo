@@ -1,0 +1,300 @@
+.clear:before {
+  content: " ";
+  display: table;
+}
+.clear:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.addv:after {
+  content: "v";
+  display: inline-block;
+  margin: 0 0 0 5px;
+  vertical-align: middle;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font: 400 12px/15px arial;
+  height: 15px;
+  width: 15px;
+  background-color: #43c947;
+}
+section.main {
+  width: 80%;
+  background-color: #EBEBEB;
+  padding: 0% 10%;
+}
+section.main .main-item {
+  width: 79%;
+  margin-right: 1%;
+  float: left;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+section.main .main-item .echo-bang {
+  margin-top: 20px;
+}
+section.main .main-item .item-header ul li {
+  float: left;
+  width: 20%;
+}
+section.main .main-item .item-header ul li h3 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 5px 0;
+  background-color: #fff;
+}
+section.main .main-item .echo-title {
+  color: #666;
+  padding: 0 20px;
+  font-size: 1.5em;
+}
+section.main .main-item .echo-title .bang {
+  font-size: 0.7em;
+  color: #6ed56c;
+  float: right;
+  display: inline-block;
+  padding: 0.4em 0;
+}
+section.main .main-item .echo-itm {
+  padding: 10px 20px;
+}
+section.main .main-item .echo-itm .echo-left {
+  float: left;
+  width: 60%;
+}
+section.main .main-item .echo-itm .echo-left > * {
+  float: left;
+}
+section.main .main-item .echo-itm .echo-left img.i1 {
+  margin-left: 5px;
+}
+section.main .main-item .echo-itm .echo-left h3 {
+  width: 150px;
+  margin-left: 10px;
+  color: #f49c9c;
+}
+section.main .main-item .echo-itm .echo-left p {
+  width: 150px;
+  margin-left: 10px;
+  font-size: 0.8em;
+}
+section.main .main-item .echo-itm .echo-left .icon-i {
+  width: 150px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+section.main .main-item .echo-itm .echo-left .icon-i img {
+  width: 25px;
+  height: 25px;
+  border-radius: 15px;
+  vertical-align: middle;
+}
+section.main .main-item .echo-itm .echo-left .icon-i span {
+  line-height: 25px;
+  color: #999;
+}
+section.main .main-item .echo-itm .echo-right {
+  float: left;
+  width: 40%;
+}
+section.main .main-item .echo-itm .echo-right .clear {
+  margin-bottom: 2px;
+}
+section.main .main-item .echo-itm .echo-right .clear > * {
+  float: left;
+}
+section.main .main-item .echo-itm .echo-right .clear h3,
+section.main .main-item .echo-itm .echo-right .clear h4 {
+  width: 200px;
+  color: #777;
+  font-weight: 300;
+}
+section.main .main-item .echo-itm .echo-right .clear h3 {
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+section.main .main-item .echo-itm .echo-right .clear h3 span {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-color: #f49c9c;
+  color: #fff;
+  text-align: center;
+  line-height: 16px;
+  margin: 0 5px;
+}
+section.main .main-item .echo-itm .echo-right .clear h4 {
+  font-size: 0.6em;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+section.main .main-item .famous {
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+section.main .main-item .famous li {
+  float: left;
+  width: 25%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+section.main .main-item .famous li a {
+  display: block;
+  font-size: 0.8em;
+  line-height: 1.2em;
+  padding: 5px 0;
+}
+section.main .main-item .famous-all {
+  margin-top: 20px;
+}
+section.main .main-item .famous-all li {
+  float: left;
+  width: 16.66666667%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 0;
+  height: 115px;
+}
+section.main .main-item .famous-all li a.addv {
+  position: relative;
+}
+section.main .main-item .famous-all li a.addv:after {
+  margin-right: -20px;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+section.main .main-item .famous-all li .h1,
+section.main .main-item .famous-all li .h2 {
+  font-size: 0.8em;
+}
+section.main .main-item .famous-all li .h2 {
+  color: #666;
+}
+section.main .main-item .famous-all li img {
+  border-radius: 50%;
+}
+section.main .main-item .expmore-list .bang {
+  float: none;
+  margin-left: 50px;
+  display: inline-block;
+  color: #fff;
+  background-color: #6ed56c;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 40px;
+}
+section.main .main-item .expmore-list .expmore-item li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+section.main .main-item .expmore-list .expmore-item li img {
+  width: 100%;
+}
+section.main .main-item .expmore-list .expmore-item li .describe-it {
+  box-sizing: border-box;
+  padding: 0 20px;
+  background-color: #f4f4f4;
+}
+section.main .main-item .expmore-list .expmore-item li .describe-it h3,
+section.main .main-item .expmore-list .expmore-item li .describe-it h4 {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+section.main .main-item .expmore-list .expmore-item li .describe-it h3 a,
+section.main .main-item .expmore-list .expmore-item li .describe-it h4 a {
+  color: #6ed56c;
+  padding-right: 5px;
+}
+section.main .main-item .expmore-list .expmore-item li .describe-it h4 {
+  color: #9b9b9b;
+}
+section.main .main-item .expmore-list .expmore-item li .describe-it .i-icon {
+  width: 100%;
+}
+section.main .main-item .expmore-list .expmore-item li .describe-it .i-icon i {
+  color: #9b9b9b;
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+section.main .main-item .expmore-list .expmore-item li .describe-it .i-icon span {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 0.8em;
+}
+section.main .main-item .expmore-list .loading {
+  margin: 30px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+section.main .main-item .expmore-list .loading a {
+  display: inline-block;
+}
+section.main aside {
+  width: 20%;
+  float: left;
+  margin-top: 20px;
+}
+section.main aside .aside-tit {
+  color: #999;
+  vertical-align: middle;
+  line-height: 2em;
+}
+section.main aside .aside-tit .as {
+  float: right;
+  color: #fff;
+  padding: 0 5px;
+  border-radius: 5px;
+  background-color: #6ed56c;
+}
+section.main aside .select-ev {
+  margin-top: 20px;
+}
+section.main aside .select-ev li:before {
+  content: ' ';
+  display: table;
+}
+section.main aside .select-ev li:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+section.main aside .select-ev li {
+  margin-bottom: 20px;
+}
+section.main aside .select-ev li img {
+  height: 70px;
+  width: 70px;
+  float: left;
+}
+section.main aside .select-ev li h3 {
+  margin-left: 5px;
+  float: left;
+  width: 150px;
+  font-size: 0.8em;
+  height: 50px;
+  font-weight: 300;
+  color: #666;
+}
+section.main aside .select-ev li h4 {
+  margin-left: 5px;
+  pdding-left: 5px;
+  float: left;
+  width: 150px;
+  font-size: 0.6em;
+  height: 20px;
+  color: #999;
+  font-weight: 300;
+}

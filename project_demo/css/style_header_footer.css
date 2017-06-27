@@ -1,0 +1,315 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-20 11:37:31
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-20 11:47:18
+*/
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft Yahei';
+}
+a {
+  text-decoration: none;
+  color: #999;
+}
+ul li {
+  list-style: none;
+}
+input {
+  outline: none;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+.container:before {
+  content: ' ';
+  display: table;
+}
+.container:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+header {
+  padding: 20px 0;
+}
+nav {
+  height: 27px;
+  box-sizing: border-box;
+}
+nav > * {
+  float: left;
+}
+nav:before {
+  content: ' ';
+  display: table;
+}
+nav:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+nav ul {
+  position: relative;
+}
+nav ul:before {
+  content: ' ';
+  display: table;
+}
+nav ul:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+nav ul li {
+  list-style: none;
+  float: left;
+  padding: 5px 15px;
+  font-size: 0.8em;
+  border-radius: 5px;
+  position: relative;
+}
+nav ul li:hover {
+  border-bottom: 4px solid #6ed56c;
+}
+nav ul li:first-child {
+  padding: 5px 20px;
+  background: url(../images/listen.png) no-repeat 74px 4px #eeeeee;
+  background-size: 19px 17px;
+  position: relative;
+}
+nav ul li:first-child:after {
+  position: absolute;
+  background: url(../images/new.png) no-repeat;
+  background-size: 25px 17px;
+  width: 26px;
+  top: -10px;
+  right: -15px;
+  height: 15px;
+  content: ' ';
+  display: block;
+}
+.logo {
+  margin-left: 70px;
+}
+.user-login a {
+  color: #6ed56c;
+  line-height: 27px;
+}
+.user-login,
+.search,
+.upload {
+  float: right;
+}
+.upload {
+  margin-right: 50px;
+  margin-left: 30px;
+  padding: 7px 25px;
+  color: #fff;
+  font-size: 0.8em;
+  background-color: #6ed56c;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.search input {
+  padding: 5px 20px;
+  border-radius: 30px;
+  border: 1px solid #e8e8e8;
+  background: url(../images/seaerch.png) no-repeat #f7f7f7 left center;
+  background-size: 15px 15px;
+}
+.main {
+  background-color: #ebebeb;
+}
+.main .main-item {
+  margin: 100px auto;
+  width: 1000px;
+  height: 500px;
+  background-color: #fff;
+}
+.main .main-item .login-left,
+.main .main-item .login-right {
+  float: left;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.main .main-item .login-left {
+  background: url(../images/bg1.png) no-repeat left bottom;
+  background-size: 100%;
+  border-right: 1px dashed #e8e8e8;
+}
+.main .main-item .login-right {
+  padding: 0 50px;
+}
+.main .main-item .login-right .login-title {
+  margin: 0 auto;
+  margin-top: 80px;
+  font-size: 1.5em;
+}
+.main .main-item .login-right .login-title span {
+  cursor: pointer;
+  color: #666;
+}
+.main .main-item .login-right .login-title .email {
+  margin-left: 30px;
+}
+.main .main-item .login-right .login-title .active {
+  color: #6ed56c;
+}
+.main .main-item .login-right .login-body {
+  margin-top: 20px;
+}
+.main .main-item .login-right .login-body > * {
+  box-sizing: border-box;
+}
+.main .main-item .login-right .login-body .tel-place {
+  width: 300px;
+  border: 1px solid #ccc;
+}
+.main .main-item .login-right .login-body .tel-place span {
+  background: url(../images/top.png) no-repeat 45px center;
+  padding: 0 20px 0 10px;
+  border-right: 1px solid #ccc;
+}
+.main .main-item .login-right .login-body input {
+  padding: 15px;
+}
+.main .main-item .login-right .login-body #email {
+  width: 300px;
+  border: 1px solid #ccc;
+  display: none;
+}
+.main .main-item .login-right .login-body #tel {
+  border: none;
+}
+.main .main-item .login-right .login-body input#pwd {
+  width: 300px;
+  display: block;
+  margin-top: 20px;
+}
+.main .main-item .login-right .login-body .btn-place {
+  margin-top: 20px;
+}
+.main .main-item .login-right .login-body .btn-place .login-btn {
+  padding: 15px 50px;
+  color: #Fff;
+  border-radius: 5px;
+  background-color: #6ed56c;
+  display: inline-block;
+}
+.main .main-item .login-right .login-body .btn-place .forget {
+  margin-left: 15px;
+}
+.main .main-item .login-right .login-body .btn-place .register {
+  color: #6ed56c;
+  text-decoration: underline;
+}
+.main .main-item .login-right .login-body .xinl,
+.main .main-item .login-right .login-body .weixin {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.main .main-item .login-right .login-body .login-style {
+  margin-top: 20px;
+  line-height: 30px;
+  font-size: 14px;
+  box-sizing: border-box;
+  height: 30px;
+  color: #999;
+}
+.main .main-item .login-right .login-body .login-style .xinl {
+  background: url(../images/xinlang.png) no-repeat;
+  vertical-align: middle;
+}
+.main .main-item .login-right .login-body .login-style .weixin {
+  margin-left: 20px;
+  background: url(../images/weixin.png) no-repeat;
+  vertical-align: middle;
+}
+.login-logo {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.wx {
+  margin: 10px auto;
+  margin-top: 90px;
+  width: 357px;
+  display: block;
+}
+footer .footer-wen {
+  padding: 30px 150px;
+  color: #999;
+  font-size: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+footer .footer-wen > * {
+  float: left;
+}
+footer .footer-wen img {
+  margin-top: 30px;
+}
+footer .footer-wen .wen-txt {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+footer .footer-wen ul {
+  float: right;
+}
+footer .footer-wen a {
+  color: #6ED56C;
+}
+footer .footer-wen:before {
+  content: ' ';
+  display: table;
+}
+footer .footer-wen:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+footer .footer-ul {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+footer .footer-ul li {
+  float: left;
+  padding: 0 15px;
+  box-sizing: border-box;
+  width: 14.28571429%;
+  font-size: 0.8em;
+}
+footer .footer-ul li a {
+  color: #000;
+}
+footer .footer-ul:before {
+  content: ' ';
+  display: table;
+}
+footer .footer-ul:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+footer .copyright {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.8em;
+  color: #999;
+  margin-bottom: 20px;
+}
+footer .copyright img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}

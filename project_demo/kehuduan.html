@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/kehuduan.css" />
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    </head>
+    <body>
+    <div class="erweima"><img src="images/kehuduan/qrcode.png" height="232" width="190" alt="" /></div>
+    <div id="head">
+        <img class="logo" src="images/kehuduan/echo_logo.png" height="55" width="55" alt="" />
+        <img class="left" src="images/kehuduan/mask_left.png" height="346" width="353" alt="" />
+        <img class="center-img" src="images/kehuduan/mask_center_logo.png" height="396" width="100%" alt="" />
+        <img class="center-slogan" src="images/kehuduan/mask_center_slogan.png" height="98" width="359" alt="" />
+        <img class="right" src="images/kehuduan/mask_right.png" height="346" width="353" alt="" />
+        <ul>
+            <li></li>
+            <li class="on"></li>
+            <li></li>
+        </ul>
+        <script type="text/javascript">
+        $("#head>ul>li").hover(function() {
+            $(this).addClass('on').siblings().removeClass('on');
+        }, function() {
+             $(this).removeClass('on');
+        });
+
+        $("#head>ul>li").eq(0).click(function(event) {
+            $("body").scrollTop(2400);
+        });
+        $("#head>ul>li").eq(1).click(function(event) {
+            $("body").scrollTop(900);
+        });
+        $("#head>ul>li").eq(2).click(function(event) {
+            $("body").scrollTop(3200);
+        });
+        </script>
+    </div>
+    <div class="container">
+        <div class="select s1">
+            <div class="iph"><img src="images/kehuduan/5.png" alt="" /></div>
+            <div class="iph-t"><img src="images/kehuduan/1_text.png" alt="" /></div>
+            <a class="iph-d" href=""><div >立即下载</div></a>
+            <div class="bf"><img src="images/kehuduan/2_phone.png" alt="" /></div>
+            <div class="dmdm">
+            <div class="dm dm1"></div>
+            <div class="dm dm2"></div>
+            <div class="dm dm3"></div>
+            <div class="dm dm4"></div>
+            <div class="dm dm5"></div></div>
+            <div class="ttt"><img src="images/kehuduan/2_text.png" alt="" /></div>
+        </div>
+        <div class="select s2">
+            <div class="an-t"><img src="images/kehuduan/3.png" alt="" /></div>
+            <a class="iph-d xx" href=""><div >立即下载</div></a>
+            <div class="an-i">
+                <img src="images/kehuduan/3_rectangle.png" alt="" />
+                 <img src="images/kehuduan/3.jpg" alt="" />
+                  <img class="oo" src="images/kehuduan/1.jpg" alt="" />
+                <img class="tt" src="images/kehuduan/2.png" alt="" />
+               
+            </div>
+        </div>
+        <div class="select s3">
+            <img class="cpimg" src="images/kehuduan/4_computer.png" height="535" width="1010" alt="" />
+            <img class="cpt" src="images/kehuduan/4.jpg" height="300" width="393" alt="" />
+            <a class="iph-d yy" href=""><div >立即下载</div></a>
+        </div>
+    </div>
+    <div id="foot">
+        <img src="images/kehuduan/footer_slogan.png" height="442" width="897" alt="" /><br />
+        <div class="wg1"><img class="wg" src="images/kehuduan/footer_logo.png" height="23" width="119" alt="" />
+        <span class="wg">© 2009-2016 启维网保留所有权利</span><br />
+        <span><a class="wg" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010602000310">沪ICP备15035783号-1   沪公网安备 31010602000310号</a></span></div>
+    </div>
+    <script type="text/javascript">
+    $(document).scroll(function(event) {
+        var olll = $(document).scrollTop();
+        console.log(olll);
+        if(olll>=200){
+            $(".iph").animate({top: 200, opacity: 1}, 1000)
+        }
+        if(olll>=1000&&olll<=1600){
+            $(".dmdm").animate({left: -olll+1000}, 50)
+        }
+        if(olll>=1800){
+            $(".tt").animate({top: -500, opacity: 1}, 1000)
+        }
+        if(olll>=2400){
+            $(".cpimg").animate({right: 200, opacity: 1}, 1000)
+        }
+       // if(){
+
+       // }
+    });
+    </script>
+    </body>
+</html>

@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  text-decoration: none;
+}
+html body {
+  width: 100%;
+  height: 100%;
+}
+#head {
+  width: 100%;
+  background: url(../images/kehuduan/mask.jpg);
+  background-size: cover;
+  position: relative;
+}
+#head ul {
+  text-align: center;
+  width: 100%;
+  height: 150px;
+  border-top: 1px solid white;
+  margin-top: -100px;
+  background: url(../images/kehuduan/topmenu.png) no-repeat 490px 50px;
+}
+#head ul li {
+  height: 98%;
+  display: inline-block;
+  width: 200px;
+}
+.left {
+  position: relative;
+}
+.right {
+  position: absolute;
+  top: 10%;
+  right: 0;
+}
+.center-img {
+  position: relative;
+  top: -200px;
+}
+.center-slogan {
+  position: absolute;
+  top: 500px;
+  right: 40%;
+}
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.on {
+  border-top: 4px solid white;
+}
+.erweima {
+  position: fixed;
+  border-shadow: 5px 5px 5px 5px;
+  right: 100px;
+  bottom: 100px;
+  z-index: 10000;
+}
+.container {
+  background: url("../images/kehuduan/bg_wave.png") no-repeat 0px 400px;
+}
+.select {
+  width: 100%;
+  height: 800px;
+  position: relative;
+}
+.s1 {
+  background: url("../images/kehuduan/1_bg_line.png") no-repeat 0px 300px;
+  height: 1600px;
+}
+.iph {
+  width: 448px;
+  height: 640px;
+  position: relative;
+  left: 200px;
+  top: 0px;
+  opacity: 0;
+}
+.iph-t {
+  width: 294px;
+  height: 294px;
+  position: relative;
+  left: 50%;
+  top: -20%;
+}
+.iph-d {
+  display: block;
+  text-align: center;
+  width: 16%;
+  position: relative;
+  left: 50%;
+  top: -20%;
+  color: white;
+  background: #54DDB6;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 40px;
+}
+.bf {
+  width: 454px;
+  height: 450px;
+  position: relative;
+  left: 15%;
+}
+.dm {
+  height: 50px;
+  width: 500px;
+  position: relative;
+  top: -25%;
+  margin-top: 2%;
+}
+.dm1 {
+  background: url("../images/kehuduan/danmu.png") no-repeat 0px 0px;
+  margin-left: 1000px;
+}
+.dm2 {
+  background: url("../images/kehuduan/danmu.png") no-repeat 0px -68px;
+  margin-left: 400px;
+}
+.dm3 {
+  background: url("../images/kehuduan/danmu.png") no-repeat 20px -138px;
+  margin-left: 1300px;
+}
+.dm4 {
+  background: url("../images/kehuduan/danmu.png") no-repeat 0px -208px;
+  margin-left: 800px;
+}
+.dm5 {
+  background: url("../images/kehuduan/danmu.png") no-repeat 0px -275px;
+  margin-left: 1000px;
+}
+.ttt {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -55%;
+  left: 60%;
+}
+.s2 {
+  position: relative;
+}
+.an-t {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  top: 300px;
+  left: 100px;
+}
+.an-i {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  left: 720px;
+  top: 50px;
+}
+.tt {
+  position: relative;
+  top: -600px;
+  left: 100px;
+  opacity: 0;
+}
+.oo {
+  position: relative;
+  top: -400px;
+  left: 100px;
+}
+.xx {
+  top: 450px;
+  left: 350px;
+  background: lightblue;
+}
+.s3 {
+  position: relative;
+}
+.s3 .cpimg {
+  position: relative;
+  right: 1000px;
+  opacity: 0;
+}
+.s3 .cpt {
+  position: absolute;
+  top: 15%;
+  left: 60%;
+}
+.s3 .yy {
+  position: relative;
+  top: -10%;
+  left: 60%;
+}
+#foot {
+  width: 100%;
+  height: 700px;
+  background: url(../images/kehuduan/footer_bg.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 10%;
+}
+#foot .wg1 {
+  margin-left: 5%;
+  text-align: left;
+}
+#foot .wg1 .wg {
+  color: white;
+}
+.dmdm {
+  position: relative;
+  top: -25%;
+  left: -200px;
+}

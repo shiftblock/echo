@@ -1,0 +1,117 @@
+.clear:before {
+  content: ' ';
+  display: table;
+}
+.clear:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+section.main {
+  margin: 0 auto;
+  padding: 0 10%;
+  background-color: #EBEBEB;
+  width: 80%;
+}
+section.main aside {
+  float: left;
+  width: 20%;
+  margin-top: 20px;
+  margin-right: 1%;
+}
+section.main aside ul {
+  background-color: #fff;
+}
+section.main aside ul.dingdan {
+  margin-top: 20px;
+}
+section.main aside ul li {
+  padding: 20px;
+  font-size: 0.8em;
+  position: relative;
+}
+section.main aside ul li.active a:before {
+  content: ' ';
+  height: 5px;
+  width: 5px;
+  background-color: #6ed56c;
+  position: absolute;
+  left: 10px;
+  top: 25px;
+}
+section.main .main-item {
+  float: left;
+  width: 79%;
+  padding: 40px 0;
+  margin-top: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+section.main .main-item .item-header {
+  padding: 0 40px;
+  margin-top: 40px;
+}
+section.main .main-item .item-header .cal {
+  font-size: 1.4em;
+  color: #999;
+}
+section.main .main-item .item-header .cal-cal {
+  font-size: 0.8em;
+  padding: 0.4em 1.2em;
+  float: right;
+  color: #666;
+  background-color: #EBEBEB;
+}
+section.main .main-item .goods-list li {
+  padding: 40px;
+  border-bottom: 1px solid #EBEBEB;
+}
+section.main .main-item .goods-list li > * {
+  float: left;
+}
+section.main .main-item .goods-list li img {
+  width: 115px;
+}
+section.main .main-item .goods-list li .des {
+  width: 400px;
+  margin-left: 20px;
+}
+section.main .main-item .goods-list li .des h2 {
+  font-size: 1.2em;
+  color: #666;
+  line-height: 1.4em;
+  font-weight: 300;
+}
+section.main .main-item .goods-list li .des h3 {
+  font-weight: 300;
+  font-size: 0.8em;
+  padding: 0.4em 0;
+  color: #999;
+}
+section.main .main-item .goods-list li .des h4 {
+  font-weight: 300;
+  font-size: 0.8em;
+  color: #666;
+  padding: 0.4em 0;
+}
+section.main .main-item .goods-list li .price {
+  float: right;
+  background-color: #6ed56c;
+  color: #fff;
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+section.main .main-item .goods-list li .price .disc {
+  text-decoration: line-through;
+  font-size: 0.8em;
+  line-height: 0.1em;
+}
+section.main .main-item .goods-list li:before {
+  content: ' ';
+  display: table;
+}
+section.main .main-item .goods-list li:after {
+  content: ' ';
+  display: table;
+  clear: both;
+}

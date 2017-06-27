@@ -1,0 +1,126 @@
+@pd-in:20px;
+.clear:before{
+    content:' ';
+    display:table;
+}
+.clear:after{
+    content:' ';
+    display:table;
+    clear:both;
+}
+section.main{
+    margin:0 auto;
+    padding:0 10%;
+    // color:red;
+    background-color:#EBEBEB;
+    // box-sizing: border-box;
+    width:80%;
+    aside{
+        float:left;
+        width:20%;
+        margin-top:@pd-in;
+        margin-right:1%;
+        
+        ul{
+            background-color: #fff;
+        }
+        ul.dingdan{
+            margin-top:@pd-in;
+        }
+        ul li{
+            padding:@pd-in;
+            font-size: 0.8em;
+            position:relative;
+        }
+        ul li.active a:before{
+            content:' ';
+            height:5px;
+            width:5px;
+            background-color: #6ed56c;
+            position:absolute;
+            left:@pd-in/2;
+            top:@pd-in+5px;
+        }
+    }
+    .main-item{
+        float:left;
+        width:79%;
+        padding:@pd-in*2 0;
+        margin-top:@pd-in;
+        box-sizing: border-box;
+        background-color: #fff;
+        .item-header{
+            padding:0 @pd-in*2;
+            margin-top: @pd-in*2;
+
+            .cal{
+                font-size: 1.4em;
+                color:#999;
+            }
+            .cal-cal{
+                font-size: 0.8em;
+                padding:0.4em 1.2em;
+                float:right;
+                color:#666;
+                background-color:#EBEBEB;
+            }
+        }
+        .goods-list{
+            li{
+                >*{
+                    float:left;
+                }
+                padding:@pd-in*2;
+                border-bottom: 1px solid #EBEBEB;
+                img{
+                width:115px;
+                }
+                .des{
+                    width:400px;
+                    margin-left: @pd-in;
+                    h2{
+                        font-size: 1.2em;
+                        color:#666;
+                        line-height: 1.4em;
+                        font-weight: 300;
+                    }
+                    h3{
+                        font-weight: 300;
+                        font-size: 0.8em;
+                        padding: 0.4em 0;
+                        color:#999;
+                    }
+                    h4{
+                        font-weight: 300;
+                        font-size: 0.8em;
+                        color:#666;
+                        padding: 0.4em 0; 
+                    }
+                }
+                .price{
+                    float:right;
+                    background-color: #6ed56c;
+                    color:#fff;
+                    margin-top:@pd-in*1.5;
+                    padding:@pd-in/2 @pd-in;
+                    .disc{
+                        text-decoration: line-through;
+                        font-size: 0.8em;
+                        line-height: 0.1em;
+                    }
+                }
+            
+            }
+            li:before{
+                content:' ';
+                display:table;
+            }
+            li:after{
+                content:' ';
+                display:table;
+                clear:both;
+            }
+        }
+    }
+
+}
